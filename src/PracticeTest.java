@@ -73,7 +73,35 @@ public class PracticeTest {
 
 
   // test for mostCommonSpaceEfficient(int[] nums)
-  
+  @Test
+  void testMostCommonSpaceEfficientNormalCase() {
+    // Arrange
+    int[] nums = {1, 2, 2, 3, 2};
+    // Act
+    int result = Practice.mostCommonSpaceEfficient(nums);
+    // Assert
+    assertEquals(2, result);
+  }
+
+  @Test
+  void testMostCommonSpaceEfficientTieCase() {
+    // Arrange
+    int[] nums = {4, 1, 4, 1};
+    // Act
+    int result = Practice.mostCommonSpaceEfficient(nums);
+    // Assert
+    assertEquals(1, result);
+  }
+
+  @Test
+  void testMostCommonSpaceEfficientSingleElement() {
+    // Arrange
+    int[] nums = {7};
+    // Act
+    int result = Practice.mostCommonSpaceEfficient(nums);
+    // Assert
+    assertEquals(7, result);
+  }
 
 
 }
