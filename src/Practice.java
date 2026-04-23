@@ -68,8 +68,8 @@ public class Practice {
     return result;
   }
 
-  // Time Complexity:
-  // Space Complexity:
+  // Time Complexity: O(1)
+  // Space Complexity: O(1)
   // Remember to define your variables!
   public static List<Character> septuple(char c) {
     List<Character> result = new ArrayList<>();
@@ -79,8 +79,8 @@ public class Practice {
     return result;
   }
 
-  // Time Complexity:
-  // Space Complexity:
+  // Time Complexity: O(rows * cols)
+  // Space Complexity: O(rows * cols)
   // Remember to define your variables!
   public static char[][] initCharRect(int rows, int cols) {
     return new char[rows][cols];
@@ -88,8 +88,8 @@ public class Practice {
 
   // Assume all strings in strs are of length s
   // Hint: charAt is an O(1) operation in both time and space
-  // Time Complexity:
-  // Space Complexity:
+  // Time Complexity: O(n * s)
+  // Space Complexity: O(n * s)
   // Remember to define your variables!
   public static List<Character> concatStrings(List<String> strs) {
     List<Character> concat = new ArrayList<>();
@@ -101,8 +101,8 @@ public class Practice {
     return concat;
   }
 
-  // Time Complexity:
-  // Space Complexity: 
+  // Time Complexity: O(1)
+  // Space Complexity: O(1)
   // Remember to define your variables!
   public static int cubic(int n, int a, int b, int c, int d) {
     int result = d;

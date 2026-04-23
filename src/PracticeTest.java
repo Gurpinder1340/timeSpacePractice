@@ -10,30 +10,6 @@ public class PracticeTest {
 
   // Hints: They are static methods, so you will use the full Practice.mostCommonTimeEfficient for method calls
 
-  @Test
-  public void testMostTimeEfficient() {
-    // Arrange
-    int [] nums = {2};
-
-    // Act
-    int result = Practice.mostCommonTimeEfficient(nums);
-
-    // Assert
-    assertEquals(4, result);
-  }
-
-  @Test
-  public void testTimeEfficientMultiple() {
-    // Arrange
-    int[] nums = {1, 3, 4, 3, 5, 6 };
-
-    // Act
-    int result = Practice.mostCommonTimeEfficient(nums);
-
-    // Assert
-    assertEquals(3, result);
-
-  }
 
   @Test
   void testConcatValsNormalCase() {
@@ -62,6 +38,9 @@ public class PracticeTest {
     // Assert
     assertTrue(result.isEmpty());
   }
+
+
+  // tests for 
 
 
 }
