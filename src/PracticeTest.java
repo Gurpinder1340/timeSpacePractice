@@ -40,7 +40,40 @@ public class PracticeTest {
   }
 
 
-  // tests for 
+  // tests for mostCommonTimeEfficient(int[] nums)
+  @Test
+  void testMostCommonNormalCase() {
+    // Arrange
+    int[] nums = {1, 2, 2, 3, 2};
+    // Act
+    int result = Practice.mostCommonTimeEfficient(nums);
+    // Assert
+    assertEquals(2, result);
+  }
+
+  @Test
+  void testMostCommonWithTie() {
+    // Arrange
+    int[] nums = {2, 1, 2, 1};
+    // Act
+    int result = Practice.mostCommonTimeEfficient(nums);
+    // Assert
+    assertEquals(2, result);
+  }
+
+  @Test
+  void testMostCommonSingleElement() {
+    // Arrange
+    int[] nums = {7};
+    // Act
+    int result = Practice.mostCommonTimeEfficient(nums);
+    // Assert
+    assertEquals(7, result);
+  }
+
+
+  // test for mostCommonSpaceEfficient(int[] nums)
+  
 
 
 }
