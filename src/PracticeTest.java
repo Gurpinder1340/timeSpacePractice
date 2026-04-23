@@ -23,3 +23,15 @@ public void testMostTimeEfficient() {
   assertEquals(4, result);
 }
 
+@Test
+public void testTimeEfficientMultiple() {
+  // Arrange
+  int[] nums = {1, 3, 4, 3, 5, 6 };
+
+  // Act
+  int result = Practice.mostCommonTimeEfficient(nums);
+
+  // Assert
+  assertEquals(3, result);
+
+}
