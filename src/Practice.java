@@ -6,9 +6,9 @@ import java.util.Map;
 
 public class Practice {
 
-  // Time Complexity:
-  // Space Complexity:
-  // Remember to define your variables!
+  // Time Complexity: o(n)
+  // Space Complexity: o(n)
+  // Remember to define your variables! // (n = array.length)
   public static List<Integer> findEvens(int[] array) {
     List<Integer> evens = new ArrayList<>();
     for (int num : array) {
@@ -20,9 +20,9 @@ public class Practice {
   }
 
   // Assume a rectangular array where #rows <= #cols
-  // Time Complexity:
-  // Space Complexity: 
-  // Remember to define your variables!
+  // Time Complexity: o(n)
+  // Space Complexity: o(1)
+  // Remember to define your variables! // matrix.length
   public static int sumDiagonal(int[][] matrix) {
     int sum = 0;
     for (int i = 0; i < matrix.length; i++) {
@@ -32,9 +32,9 @@ public class Practice {
   }
   
 
-  // Time Complexity: 
-  // Space Complexity: 
-  // Remember to define your variables!
+  // Time Complexity: o(n)
+  // Space Complexity: o(n)
+  // Remember to define your variables! // n = length of the array
   public static <T> Map<T, Integer> countFrequencies(T[] array) {
     Map<T, Integer> frequencies = new HashMap<>();
     for (T val : array) {
@@ -43,9 +43,9 @@ public class Practice {
     return frequencies;
   }
 
-  // Time Complexity: 
-  // Space Complexity: 
-  // Remember to define your variables!
+  // Time Complexity: o(n^2)
+  // Space Complexity: o(n^2)
+  // Remember to define your variables! // input number of n
   public static List<Integer> evensToSquare(int n) {
     List<Integer> evens = new ArrayList<>();
     for(int i = 0; i <= n*n; i+=2) {
